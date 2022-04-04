@@ -1,343 +1,424 @@
-<?php include ('./header.php')?>
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<!-- Page title -->
+<?php $title = "StarFace CAMP"; ?>
 
+<!-- header.php -->
+<?php include('./includes/header.inc.php'); ?>
 
-  <div id="overlayer"></div>
-  <!-- <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
+<!-- Hero section -->
+    <div class="hero-v1 hero-image">
+      <div class="custom-shape-divider-bottom-1630920106">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mr-auto text-center text-lg-left">
+            <!--<span class="d-block subheading">lorem</span>-->
+            <h1 class="heading mb-3 text-white">We Celebrate Diversity to Embrace Humanity Through Arts.</p>
+            <div class="my-2 py-2"><a href="donate.html" class="btn p-3 bg-brown font-weight-bold btn-animate">Donate Now</a></div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div> -->
 
 
-  <div class="site-wrap">
-    <?php include "./includes/nav.php"; ?>
     <!-- MAIN -->
 
-    <div class="hero-carousel-wrap">
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <figure class="img-play-vid display-none">
+              <img src="images/starface-01.jpg" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto">
+            <h2 class="mb-4 section-heading navy-text">WHO WE ARE</h2>
+            <p>StarFace CAMP (Creative and multicultural platform) is a humanitarian and social enterprise serving to empower the marginalized groups and social entrepreneurs through art, culture and technology. We prioritize equity, diversity and inclusion for positive social transformation and sustainable development. </p>
+            <p><a href="about.html" class="btn btn-primary">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="feature-v1 d-flex align-items-center">
+            <div class="icon-wrap mr-3">
+              <span class="flaticon-protection"></span>
+            </div>
+            <div>
+              <h3>Protection</h3>
+              <span class="d-block">Lorem ipsum dolor sit.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="feature-v1 d-flex align-items-center">
+            <div class="icon-wrap mr-3">
+              <span class="flaticon-patient"></span>
+            </div>
+            <div>
+              <h3>Prevention</h3>
+              <span class="d-block">Lorem ipsum dolor sit.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="feature-v1 d-flex align-items-center">
+            <div class="icon-wrap mr-3">
+              <span class="flaticon-hand-sanitizer"></span>
+            </div>
+            <div>
+              <h3>Treatments</h3>
+              <span class="d-block">Lorem ipsum dolor sit.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="feature-v1 d-flex align-items-center">
+            <div class="icon-wrap mr-3">
+              <span class="flaticon-virus"></span>
+            </div>
+            <div>
+              <h3>Symptoms</h3>
+              <span class="d-block">Lorem ipsum dolor sit.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
 
-      <div class="slide-one-item owl-carousel">
-        <div class="slide-item overlay" style="background-image: url('images/slider-1.jpg')">
-          <div class="container">
+    <div class="site-section bg-primary-light parallax">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 bg-white p-5 mb-5 mr-auto">
+            <h2 class="section-heading mb-4">WHAT WE DO</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur at. Voluptas, error!</p>
+            <p><a href="what-we-do.html" class="btn btn-primary">Read more about what we do</a></p>
+          </div>
+          <div class="col-lg-6">
+
             <div class="row">
-              <div class="col-lg-6 align-self-center">
-                <h1 class="heading">A Higher Standard of Senior Living</h1>
+              <div class="col-6 col-lg-6 mt-lg-5">
+                <div class="media-v1 bg-1">
+                  <div class="icon-wrap">
+                    <span><i class="fas fa-microphone"></i></span>
+                  </div>
+                  <div class="body">
+                    <h3>Studio</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                  </div>
+                </div>
+
+                <div class="media-v1 bg-1">
+                  <div class="icon-wrap">
+                    <span><i class="fas fa-calendar-check"></i></span>
+                  </div>
+                  <div class="body">
+                    <h3>Events</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                  </div>
+                </div>
+                <div class="media-v1 bg-1">
+                  <div class="icon-wrap">
+                    <span><i class="fas fa-book-open"></i></span>
+                  </div>
+                  <div class="body">
+                    <h3>Study Programs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                  </div>
+                </div>
               </div>
+              <div class="col-6 col-lg-6">
+                <div class="media-v1 bg-1">
+                  <div class="icon-wrap">
+                    <span><i class="fas fa-file-alt"></i></span>
+                  </div>
+                  <div class="body">
+                    <h3>Reports</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                  </div>
+                </div>
+
+                <div class="media-v1 bg-1">
+                  <div class="icon-wrap">
+                    <span><i class="fas fa-hand-holding-heart"></i></span>
+                  </div>
+                  <div class="body">
+                    <h3>Outreaches</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                  </div>
+                </div>
+                <div class="media-v1 bg-1">
+                  <div class="icon-wrap">
+                    <span><i class="fas fa-dumbbell"></i></span>
+                  </div>
+                  <div class="body">
+                    <h3>Fitness Classes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-
-
-      <div class="slide-pagination">
-        <div class="d-flex align-items-center">
-          <div class="d-flex pagination-item h-100 active">
-            <span class="icon-wrap">
-              <img src="images/svg/svg/001-elderly.svg" alt="Image" class="img-fluid">
-            </span>
-            <div>
-              <span class="subheading">Try Our Services</span>
-              <h3 class="heading">Independent Living For Senior Couples</h3>
-            </div>
-          </div>
-          <div class="d-flex pagination-item h-100">
-            <span class="icon-wrap">
-              <img src="./images/s" alt="Image" class="img-fluid">
-            </span>
-            <div>
-              <span class="subheading">Try Our Services</span>
-              <h3 class="heading">We Are Helping the Senior Elderly People</h3>
-            </div>
-          </div>
-          <div class="d-flex pagination-item h-100">
-            <span class="icon-wrap">
-              <img src="images/svg/svg/003-rocking-chair.svg" alt="Image" class="img-fluid">
-            </span>
-            <div>
-              <span class="subheading">Try Our Services</span>
-              <h3 class="heading">Senior Home Patient Care Services</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
+    <!-- our programs section-->
     <div class="site-section">
       <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center">
+            <h2 class="mb-4 section-heading">OUR PROGRAMS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <div class="service">
-              <a href="#" class="d-block"><img src="images/img_4_sq.jpg" alt="Image" class="img-fluid"></a>
-              <div class="service-inner">
-                <h3>Special Care</h3>
-                <p>Lorem ipsum dolor sit amet elit.</p>
+          <div class="col-lg-6 ">
+            <div class="row pt-auto pl-3">
+              <div class="col-lg-6 do ">
+                <ul class="list-unstyled check pl-3">
+                  <li class="font-weight-bold">Creative Session</li>
+                  <li class="font-weight-bold">Boot Camp Edition</li>
+                  <li class="font-weight-bold">The Academy Show</li>
+                  <li class="font-weight-bold">Disinfect your home</li>
+                  <li class="font-weight-bold">Theatre Art Production</li>
+                  <li class="font-weight-bold">Starface CAMPus</li>
+                </ul>
               </div>
+              <div class="col-lg-6 do">
+                <ul class="list-unstyled check pl-3">
+                  <li class="font-weight-bold">Audiovisual Production</li>
+                  <li class="font-weight-bold">Outreach Programs</li>
+                  <li class="font-weight-bold">Art Cafe</li>
+                  <li class="font-weight-bold">The Dance Fitness Class</li>
+                </ul>
+              </div>
+              <div class="py-4 my-2"><a href="programs.html" class="btn btn-primary">Learn more</a></div>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <div class="service">
-              <a href="#" class="d-block"><img src="images/img_1_sq.jpg" alt="Image" class="img-fluid"></a>
-              <div class="service-inner">
-                <h3>Special Care</h3>
-                <p>Lorem ipsum dolor sit amet elit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <div class="service">
-              <a href="#" class="d-block"><img src="images/img_2_sq.jpg" alt="Image" class="img-fluid"></a>
-              <div class="service-inner">
-                <h3>Special Care</h3>
-                <p>Lorem ipsum dolor sit amet elit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 mb-4 mb-lg-0 col-lg-3">
-            <div class="service">
-              <a href="#" class="d-block"><img src="images/img_3_sq.jpg" alt="Image" class="img-fluid"></a>
-              <div class="service-inner">
-                <h3>Special Care</h3>
-                <p>Lorem ipsum dolor sit amet elit.</p>
-              </div>
-            </div>
+          <div class="col-lg-6 display-none">
+            <img src="images/starface-03.jpg" alt="Image" class="img-fluid h-100">
           </div>
         </div>
       </div>
     </div>
+    <!--/programs-->
 
-    <div class="site-section bg-primary">
+    <!-- Impact-->
+    <div class="site-section stats bg-sandy-brown">
       <div class="container">
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <div class="counter-wrap text-center">
-              <strong class="counter d-block">5890</strong>
-              <span>Rooms Available</span>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <div class="counter-wrap text-center">
-              <strong class="counter d-block">530</strong>
-              <span>Nurse Staff</span>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <div class="counter-wrap text-center">
-              <strong class="counter d-block">4029</strong>
-              <span>Senior Living</span>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <div class="counter-wrap text-center">
-              <strong class="counter d-block">7020</strong>
-              <span>Happy People</span>
-            </div>
+        <div class="row mb-3">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading text-white">OUR IMPACT</h2>
+            <p>Behind every number is a story.</p>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-7">
-            <div class="section-heading">
-              <h2 class="heading mb-3">Senior Care Center is for Your Family</h2>
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore perspiciatis deleniti, maiores quia aliquam, odit iure aspernatur voluptate delectus ipsa.</p>
-
-              <div class="row">
-                <div class="col-lg-6">
-                  <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled ul-check primary">
-                    <li>Consectetur adipisicing elit</li>
-                    <li>Voluptate delectus ipsa</li>
-                    <li>Maiores quia aliquam</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5">
-
-            <div class="d-block custom-media algin-items-stretch">
-              <div class="text text-center">
-                <h3>You can live here with love</h3>
-              </div>
-              <div class="img-bg" style="background-image: url('images/img_2.jpg')"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="cover overlay" style="background-image: url('images/slider-2.jpg')">
-      <div class="container">
-        <div class="row ">
-          <div class="col-lg-7 mx-auto text-center align-self-center">
-            <h1 class="mb-5 heading">Our Goal is to Make Your Life Better</h1>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="feature">
-                  <span class="img-wrap">
-                    <img src="/images/symptom_cough.png" alt="Image" class="img-fluid">
-                  </span>
-                  <h3>Expert Nursing Staff</h3>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="feature">
-                  <span class="img-wrap">
-                    <img src="images/svg/svg/005-elderly-2.svg" alt="Image" class="img-fluid">
-                  </span>
-                  <h3>Expert Nursing Staff</h3>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="feature">
-                  <span class="img-wrap">
-                    <img src="images/svg/svg/004-nurse.svg" alt="Image" class="img-fluid">
-                  </span>
-                  <h3>Expert Nursing Staff</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section bg-light">
-      <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="testimonial text-center">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-              <blockquote>
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                <cite class="author">Elizabeth Anderson, Senior</cite>
-              </blockquote>
+            <div class="data">
+              <span class="icon text-primary">
+                <span class="flaticon-virus"></span>
+              </span>
+              <strong class="d-block number text-white">28</strong>
+              <span class="label text-white">Outreaches</span>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="testimonial text-center">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-              <blockquote>
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                <cite class="author">Elizabeth Anderson, Senior</cite>
-              </blockquote>
+            <div class="data">
+              <span class="icon text-primary">
+                <span class="flaticon-virus"></span>
+              </span>
+              <strong class="d-block number text-white">354</strong>
+              <span class="label text-white">Lives Changed</span>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="testimonial text-center">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-              <blockquote>
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                <cite class="author">Elizabeth Anderson, Senior</cite>
-              </blockquote>
+            <div class="data">
+              <span class="icon text-primary">
+                <span class="flaticon-virus"></span>
+              </span>
+              <strong class="d-block number text-white">133</strong>
+              <span class="label text-white">Youths Trained</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <!--/Impact-->
     <div class="site-section">
       <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-7 text-center">
-            <div class="heading">
-              <h2 class="text-black">Other Opportunities</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, culpa.</p>
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center">
+            <h2 class="mb-4 section-heading">News &amp; Articles</h2>
+            <p>StarFace CAMP Presents Arts Entrepreneurship,</p>
           </div>
         </div>
+
         <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="d-block d-flex custom-media algin-items-stretch">
-              <div class="text text-left">
-                <h3>You can live here with love</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi.</p>
-                <p><a href="#" class="btn btn-outline-white">Learn More</a></p>
-              </div>
-              <div class="img-bg" style="background-image: url('images/img_2.jpg')"></div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="d-block d-flex custom-media algin-items-stretch">
-              <div class="text text-left">
-                <h3>You can live here with love</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi.</p>
-                <p><a href="#" class="btn btn-outline-white">Learn More</a></p>
-              </div>
-              <div class="img-bg" style="background-image: url('images/img_3.jpg')"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section bg-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-6 mb-5 mb-md-0">
-            <img src="images/about.png" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-md-6 col-lg-5 ml-auto">
-            <div class="section-heading">
-              <h2 class="heading mb-3 text-white">Senior &amp; Elder Home Care Center</h2>
-
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique amet nostrum facere hic! Inventore cumque ipsam eum, sit sequi illum.</p>
-              <p class="mb-4 text-white">Optio ex ullam eveniet magnam molestiae laborum, dignissimos dolorum ipsam minus, ipsum vel illo aut molestias suscipit voluptatem hic voluptatibus!</p>
-              <p class="text-white mb-5"><strong class="h3">&ldquo;We care for elderly people&rdquo;</strong></p>
-              <p><a href="#" class="btn btn-white">Learn More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-7 text-center">
-            <div class="heading">
-              <h2 class="text-black">News &amp; Updates</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, culpa.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="blog-entry">
-              <a href="#" class="d-block mb-4">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+          <div class="col-lg-4">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                <span class="date">30 Jul, 2020</span>
+                <img src="./images/starface-09.jpg" alt="Image" class="img-fluid">
               </a>
-              <div class="post-meta d-flex">
-                <span class="d-flex">
-                  <span></span>
-                  <span>23 Jul</span>
-                </span>
-                <span>
+              <div class="post-meta text-center">
+                <a href="">
                   <span class="icon-user"></span>
                   <span>Admin</span>
-                </span>
-                <span>
+                </a>
+                <a href="#">
                   <span class="icon-comment"></span>
-                  <span>2 Comments</span>
-                </span>
+                  <span>3 Comments</span>
+                </a>
               </div>
+              <h3><a href="#">StarFace CAMP Presents #ArtsEntrepreneurship,</a></h3>
             </div>
           </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
+          <div class="col-lg-4">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                <span class="date">30 Jul, 2020</span>
+                <img src="./images/starface-09.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-meta text-center">
+                <a href="">
+                  <span class="icon-user"></span>
+                  <span>Admin</span>
+                </a>
+                <a href="#">
+                  <span class="icon-comment"></span>
+                  <span>3 Comments</span>
+                </a>
+              </div>
+              <h3><a href="#">StarFace CAMP Presents #ArtsEntrepreneurship,</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="post-entry">
+              <a href="#" class="thumb">
+                <span class="date">30 Jul, 2020</span>
+                <img src="./images/starface-09.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-meta text-center">
+                <a href="">
+                  <span class="icon-user"></span>
+                  <span>Admin</span>
+                </a>
+                <a href="#">
+                  <span class="icon-comment"></span>
+                  <span>3 Comments</span>
+                </a>
+              </div>
+              <h3><a href="#">StarFace CAMP Presents Arts Entrepreneurship,</a></h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <?php include ('./footer.php');
+    <div class="site-section bg-purple">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center">
+            <h2 class="mb-4 section-heading">Join the CAMP</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
+            <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+              <div class="card-title">
+                <h4 class="text-white">Donate</h4>
+              </div>
+              <div class="card-text">
+                <p>Help those in need</p>
+              </div>
+              <div class="background-color--white card__icon card__icon--small rounded-full card__icon--shadow">
+                <img class="card__icon-image" src="./fonts/svg-icons/icon-donate.svg">
+              </div>
+              <div class="card__arrow rounded-full" style="background-color: #ffc20e">
+                <img class="card__arrow-icon" src="./fonts/svg-icons/arrow--right--navy.svg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
+            <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+              <div class="card-title">
+                <h4 class="text-white">Volunteer</h4>
+              </div>
+              <div class="card-text">
+                <p>Find ways to serve others</p>
+              </div>
+              <div class="background-color--white card__icon card__icon--small rounded-full card__icon--shadow">
+                <img class="card__icon-image" src="./fonts/svg-icons/icon-volunteer.svg">
+              </div>
+              <div class="card__arrow rounded-full" style="background-color: #ffc20e">
+                <img class="card__arrow-icon" src="./fonts/svg-icons/arrow--right--navy.svg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
+            <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+              <div class="card-title">
+                <h4 class="text-white">Gift Shop</h4>
+              </div>
+              <div class="card-text">
+                <p>Shop to help the cause</p>
+              </div>
+              <div class="background-color--white card__icon card__icon--small rounded-full card__icon--shadow">
+                <img class="card__icon-image" src="./fonts/svg-icons/icon-shop.svg">
+              </div>
+              <div class="card__arrow rounded-full" style="background-color: #ffc20e">
+                <img class="card__arrow-icon" src="./fonts/svg-icons/arrow--right--navy.svg" alt="">
+              </div>
+            </a>
+          </div>
 
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section mb-3">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center">
+            <h2 class="mb-4 section-heading">OUR PARTNERS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container mx-auto my-5">
+            <div class="row justify-content-center flex-wrap">
+              <div class="col-sm-12 col-lg-2 justify-content-center">
+                <div class="card" style="width: 9rem;">
+                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-2">
+                <div class="card" style="width: 9rem;">
+                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-2 justify-content-center">
+                <div class="card" style="width: 9rem;">
+                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-2 justify-content-center">
+                <div class="card" style="width: 9rem;">
+                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <?php include './includes/footer.inc.php'; ?>
