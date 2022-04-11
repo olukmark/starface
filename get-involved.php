@@ -29,7 +29,7 @@
 		</section>
 
     <!-- MAIN -->
-    <div class="site-section bg-primary-light">
+    <div class="site-section">
       <div class="container">
           <div class="row mb-5 flex-column">
               <div class="col-lg-4 mx-auto text-center justify-content-center">
@@ -104,7 +104,7 @@
               </div>
               <div class="row">
                 <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-                  <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+                  <a href="donate.php" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
                     <div class="card-title">
                       <h4 class="text-white">Donate</h4>
                     </div>

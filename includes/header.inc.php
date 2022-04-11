@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/ico" sizes="16x16" href="../images/favicon-32x32.png">
   <title><?php echo $title; ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
 
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
 
@@ -66,13 +67,13 @@
             <div class="mb-0 site-logo"><a href="index.php" class="mb-0"><img src="images/starface-logo.jpg"><span class="text-primary"></span> </a></div>
           </div>
 
-          <div class="col-12 col-md-10 d-none d-xl-block">
+          <div class="col-12 col-md-10 d-none d-xl-block p-0">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="has-children">
-                  <a href="about.php" class="nav-link">Who We Are</a>
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block p-0">
+                <li><a href="index.php" class="nav-link">Home</a></li>
+                <li class="">
+                  <a href="who-we-are.php" class="nav-link">Who We Are</a>
                   <!--<ul class="dropdown">
                     <li><a href="#" class="nav-link">Stay at home</a></li>
                     <li><a href="#" class="nav-link">Keep social distancing</a></li>
@@ -91,9 +92,10 @@
 
                 <li><a href="what-we-do.php" class="nav-link">What We Do</a></li>
                 <li><a href="get-involved.php" class="nav-link">Get Involved</a></li>
+                <li><a href="news.php" class="nav-link">News & Stories</a></li>
                 <li><a href="contact.php" class="nav-link">Contact</a></li>
                 <li><a href="art-cafe.php" class="nav-link">The Art Cafe</a></li>
-                <li><a href="donate.php" class="btn bg-brown nopadding" style="padding: 10px; width: 120px;">Donate</a></li>
+                <!-- <li><a href="donate.php" class="btn bg-brown nopadding" style="padding: 10px; width: 120px;">Donate</a></li> -->
               </ul>
             </nav>
           </div>

@@ -16,7 +16,7 @@
           <div class="col-lg-6 mr-auto text-center text-lg-left">
             <!--<span class="d-block subheading">lorem</span>-->
             <h1 class="heading mb-3 text-white">We Celebrate Diversity to Embrace Humanity Through Arts.</p>
-            <div class="my-2 py-2"><a href="donate.html" class="btn p-3 bg-brown font-weight-bold btn-animate">Donate Now</a></div>
+            <div class="my-2 py-2"><a href="donate.php" class="btn p-3 bg-brown font-weight-bold btn-animate">Donate Now</a></div>
           </div>
         </div>
       </div>
@@ -25,13 +25,13 @@
 
     <!-- MAIN -->
 
+    <!-- Who we are section -->
     <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <figure class="img-play-vid display-none">
-              <img src="images/starface-01.jpg" alt="Image" class="img-fluid">
-            </figure>
+            <img class="display-none" src="images/starface-11.jpg" style="border-top-left-radius: 170px;
+border-bottom-right-radius: 130px;">
           </div>
           <div class="col-lg-5 ml-auto">
             <h2 class="mb-4 section-heading navy-text">WHO WE ARE</h2>
@@ -42,75 +42,26 @@
       </div>
     </div>
 
-    <!-- <div class="container pb-5">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-protection"></span>
-            </div>
-            <div>
-              <h3>Protection</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-patient"></span>
-            </div>
-            <div>
-              <h3>Prevention</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-hand-sanitizer"></span>
-            </div>
-            <div>
-              <h3>Treatments</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="feature-v1 d-flex align-items-center">
-            <div class="icon-wrap mr-3">
-              <span class="flaticon-virus"></span>
-            </div>
-            <div>
-              <h3>Symptoms</h3>
-              <span class="d-block">Lorem ipsum dolor sit.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
+    <!-- what we do secion -->
     <div class="site-section bg-primary-light parallax">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 bg-white p-5 mb-5 mr-auto">
-            <h2 class="section-heading mb-4">WHAT WE DO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur at. Voluptas, error!</p>
-            <p><a href="what-we-do.html" class="btn btn-primary">Read more about what we do</a></p>
+          <div class="col-lg-5 bg-white p-5 mb-5 mr-auto justify-content-center">
+            <div class="text-center">
+              <h2 class="section-heading mb-4">WHAT WE DO</h2>
+              <p></p>
+            </div>
           </div>
           <div class="col-lg-6">
-
             <div class="row">
               <div class="col-6 col-lg-6 mt-lg-5">
                 <div class="media-v1 bg-1">
                   <div class="icon-wrap">
                     <span><i class="fas fa-microphone"></i></span>
                   </div>
-                  <div class="body">
+                  <div class="body text-center">
                     <h3>Studio</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <p></p>
                   </div>
                 </div>
 
@@ -118,18 +69,18 @@
                   <div class="icon-wrap">
                     <span><i class="fas fa-calendar-check"></i></span>
                   </div>
-                  <div class="body">
+                  <div class="body text-center">
                     <h3>Events</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <p></p>
                   </div>
                 </div>
                 <div class="media-v1 bg-1">
                   <div class="icon-wrap">
                     <span><i class="fas fa-book-open"></i></span>
                   </div>
-                  <div class="body">
+                  <div class="body text-center">
                     <h3>Study Programs</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -138,9 +89,9 @@
                   <div class="icon-wrap">
                     <span><i class="fas fa-file-alt"></i></span>
                   </div>
-                  <div class="body">
+                  <div class="body text-center">
                     <h3>Reports</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <p></p>
                   </div>
                 </div>
 
@@ -148,30 +99,31 @@
                   <div class="icon-wrap">
                     <span><i class="fas fa-hand-holding-heart"></i></span>
                   </div>
-                  <div class="body">
+                  <div class="body text-center">
                     <h3>Outreaches</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <p></p>
                   </div>
                 </div>
                 <div class="media-v1 bg-1">
                   <div class="icon-wrap">
                     <span><i class="fas fa-dumbbell"></i></span>
                   </div>
-                  <div class="body">
+                  <div class="body text-center">
                     <h3>Fitness Classes</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
+                    <p></p>
                   </div>
                 </div>
               </div>
 
             </div>
           </div>
+         <!-- <p><a href="what-we-do.html" class="btn btn-primary">Read more about what we do</a></p>-->
         </div>
       </div>
     </div>
 
     <!-- our programs section-->
-    <div class="site-section">
+<!-- <div class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto text-center">
@@ -208,7 +160,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/programs-->
 
     <!-- Impact-->
@@ -224,7 +176,7 @@
           <div class="col-lg-4">
             <div class="data">
               <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
+                <img src="./images/outreaches.png">
               </span>
               <strong class="d-block number text-white">28</strong>
               <span class="label text-white">Outreaches</span>
@@ -233,7 +185,7 @@
           <div class="col-lg-4">
             <div class="data">
               <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
+                <img src="./images/giving.png">
               </span>
               <strong class="d-block number text-white">354</strong>
               <span class="label text-white">Lives Changed</span>
@@ -242,7 +194,7 @@
           <div class="col-lg-4">
             <div class="data">
               <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
+                <img src="./images/training-2.png">
               </span>
               <strong class="d-block number text-white">133</strong>
               <span class="label text-white">Youths Trained</span>
@@ -252,12 +204,14 @@
       </div>
     </div>
     <!--/Impact-->
+
+    <!-- News section -->
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">News &amp; Articles</h2>
-            <p>StarFace CAMP Presents Arts Entrepreneurship,</p>
+            <h2 class="mb-4 section-heading">NEWS &amp; STORIES</h2>
+            <p></p>
           </div>
         </div>
 
@@ -323,17 +277,97 @@
       </div>
     </div>
 
+    <!-- Gallery section -->
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading text-navy">GALLERY</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-12">
+            <div class="MultiCarousel" data-items="1,3,3,3" data-slide="1" id="MultiCarousel"  data-interval="1000">
+            <div class="MultiCarousel-inner">
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/starface-02.jpg">
+                  <div class="bg-white py-3"><p>Caption</p></div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/starface-06.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/starface-10.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                  <img src="images/starface-04.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-09.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-01.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-04.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-06.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-05.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-09.jpg">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary leftLst"><</button>
+            <button class="btn btn-primary rightLst">></button>
+          </div>
+            </div>
+            <div class="col-lg-12">
+            <div class="container">
+  <div class="col-md-12">
+
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Join us section -->
     <div class="site-section bg-purple">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">Join the CAMP</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+            <h2 class="mb-4 section-heading">JOIN THE CAMP</h2>
+            <p>Join us and be part of the Starface CAMP</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-            <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+            <a href="donate.php" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
               <div class="card-title">
                 <h4 class="text-white">Donate</h4>
               </div>
@@ -349,7 +383,7 @@
             </a>
           </div>
           <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-            <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+            <a href="./get-involved.php#volunteer" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
               <div class="card-title">
                 <h4 class="text-white">Volunteer</h4>
               </div>
@@ -385,40 +419,40 @@
       </div>
     </div>
 
-    <div class="site-section mb-3">
+    <!-- partners section -->
+    <div class="site-section stats">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">OUR PARTNERS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+        <div class="row mb-3">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading text-navy">OUR PARTNERS</h2>
+            <p></p>
           </div>
         </div>
         <div class="row">
-          <div class="container mx-auto my-5">
-            <div class="row justify-content-center flex-wrap">
-              <div class="col-sm-12 col-lg-2 justify-content-center">
-                <div class="card" style="width: 9rem;">
-                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-2">
-                <div class="card" style="width: 9rem;">
-                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-2 justify-content-center">
-                <div class="card" style="width: 9rem;">
-                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-2 justify-content-center">
-                <div class="card" style="width: 9rem;">
-                  <img src="images/SNV.jpg" class="card-img-top" alt="...">
-                </div>
-              </div>
+          <div class="col-lg-4 my-2">
+            <div class="data">
+              <span class="icon text-primary">
+                <img src="./images/SNV.jpg">
+              </span>
             </div>
+          </div>
+          <div class="col-lg-4 mx-y">
+            <div class="data">
+              <span class="icon text-primary">
+                <img src="./images/SNV.jpg">
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-4 mx-y">
+            <div class="data">
+              <span class="icon text-primary">
+                <img src="./images/SNV.jpg">
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- Footer -->
     <?php include './includes/footer.inc.php'; ?>

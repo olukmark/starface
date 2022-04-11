@@ -19,7 +19,7 @@
 					<div class="v-center">
 						<div class="container">
 							<div class="title center">
-								<h1 class="upper">Contact Us<span class="dot"></span></h1>
+								<h1 class="upper">Donate<span class="dot"></span></h1>
 								<h4></h4><hr>
 							</div>
 						</div>
@@ -37,9 +37,8 @@
         <div class="row mb-5">
           <div class="col-lg-4 mx-auto text-center">
               <h2 class="mb-4 section-heading">Donate today and help our dedicated staff and volunteers</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
           </div>
-          <div class="col-lg-4 mx-auto text-center">
+<!-- <div class="col-lg-4 mx-auto text-center">
             <div>
               <h3>Enter the amount you wish to donate</h3>
             </div>
@@ -53,7 +52,7 @@
                   <input type="text" class="form-control"
                 </div>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
     </div>
