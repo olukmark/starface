@@ -46,7 +46,7 @@ border-bottom-right-radius: 130px;">
     <div class="site-section bg-primary-light parallax">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 bg-white p-5 mb-5 mr-auto justify-content-center">
+          <div class="col-lg-5 bg-white p-2 mb-5 mr-auto justify-content-center">
             <div class="text-center">
               <h2 class="section-heading mb-4">WHAT WE DO</h2>
               <p></p>
@@ -168,7 +168,7 @@ border-bottom-right-radius: 130px;">
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading text-white">OUR IMPACT</h2>
+            <h2 class="section-heading text-navy">OUR IMPACT</h2>
             <p>Behind every number is a story.</p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 
 <!-- Page title -->
-<?php $title = "About Us - Starface CAMP"; ?>
+<?php $title = "Who We Are - Starface CAMP"; ?>
 
 <!-- header.php -->
 <?php include './includes/header.inc.php'; ?>
@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div class="site-section bg-sandy-brown">
+    <div class="site-section bg-sandy-brown bg-img">
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">
@@ -63,54 +63,55 @@
           <div class="text-center mb-5">
               <p></p>
           </div>
-          <div class="col-12 col-md-6 icon-box-small">
+          <div class="col-12 col-md-6 icon-box-small my-3">
             <div class="my-1">
-              <div class="d-flex justify-content-center p-2 mx-2">
+              <div class="icon d-flex justify-content-center p-4 mx-2">
                 <img src="images/vision-2.png">
               </div>
-              <div class="d-flex justify-content-center"><h4>Vision</h4></div>
+              <div class="d-flex justify-content-center navy-text"><h4 class="label font-weight-bold">Vision</h4></div>
             </div>
             <div class="text-center">
               <p class="navy-text">To evolve into one of the most successful councils of the arts and cultural development that diligently promote arts.
 </p>
             </div>
           </div>
-          <div class="col-12 col-md-6 icon-box-small">
+          <div class="col-12 col-md-6 icon-box-small my-3">
             <div class="my-1">
-              <div class="icon d-flex justify-content-center p-2 mx-2">
+              <div class="icon d-flex justify-content-center p-4 mx-2">
                 <img src="images/mission-2.png">
               </div>
-              <div class="d-flex justify-content-center"><h4>Mission</h4></div>
+              <div class="d-flex justify-content-center navy-text"><h4 class="label font-weight-bold">Mission</h4></div>
             </div>
             <div class="text-center">
-              <p class="white-text">Achieving the best security operatives</p>
+              <p class="navy-text">To build marginalized groups/ communities, enhance creativity, inspire and empower social entrepreneurs in order to leverage the arts and preserve culture regardless of diversity.
+</p>
             </div>
           </div>
-          <div class="col-12 col-md-6 icon-box-small">
+          <div class="col-12 col-md-6 icon-box-small my-3">
             <div class="my-1">
-              <div class="col icon d-flex justify-content-center p-2 mx-2">
-                <img src="images/values.png">
+              <div class="col icon d-flex justify-content-center p-4 mx-2">
+                <img src="images/value-white.png">
               </div>
-              <div class="d-flex justify-content-center"><h4>Core Values</h4></div>
+              <div class="d-flex justify-content-center"><h4 class="navy-text label font-weight-bold">Core Values</h4></div>
             </div>
             <div class="text-center">
-              <p class="grey-text">Professionalism</p>
-              <p class="grey-text">Collaboration</p>
-              <p class="grey-text">Humanity</p>
-              <p class="grey-text">Safety and wellbeing</p>
+              <p class="navy-text">Professionalism</p>
+              <p class="navy-text">Collaboration</p>
+              <p class="navy-text">Humanity</p>
+              <p class="navy-text">Safety and wellbeing</p>
             </div>
           </div>
-          <div class="col-12 col-md-6 icon-box-small">
+          <div class="col-12 col-md-6 icon-box-small my-3">
             <div class="my-1">
-              <div class="icon d-flex justify-content-center p-2 mx-2">
-                <img src="images/goal.png">
+              <div class="icon d-flex justify-content-center p-4 mx-2">
+                <img src="images/goals-white.png">
               </div>
-              <div class="d-flex justify-content-center"><h4>Objectives</h4></div>
+              <div class="d-flex justify-content-center navy-text"><h4 class="label font-weight-bold">Objectives</h4></div>
             </div>
             <div class="text-center">
-              <p class="grey-text">To nurture art, technology and entrepreneurship skills.</p>
-              <p class="grey-text">To offer a platform for creatives and entrepreneurs to sharpen their skills.</p>
-              <p class="grey-text">To promote a healthy and fulfilling lifestyle.</p>
+              <p class="navy-text">To nurture art, technology and entrepreneurship skills.</p>
+              <p class="navy-text">To offer a platform for creatives and entrepreneurs to sharpen their skills.</p>
+              <p class="navy-text">To promote a healthy and fulfilling lifestyle.</p>
 
               </p>
             </div>
@@ -125,7 +126,7 @@
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">
             <h2 class="section-heading">TEAM</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate!</p>
+            <p>Our forward-looking leadership team is made up of dedicated, focused and experienced executives.</p>
           </div>
         </div>
 

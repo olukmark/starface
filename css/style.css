@@ -17,12 +17,19 @@
 .bg-purple {background: var(--starface-purple);}
 
 /* Typography */
+.white-text {color: #fff}
 .grey-text {
   color: var(--starface-grey);
 }
 .navy-text {
   color: var(--starface-navy);
 }
+  h3 > a {
+    color: var(--starface-navy);
+  }
+
+  a { color: var(--starface-navy); }
+
 /* Base */
 html {
   overflow-x: hidden; }
@@ -1096,29 +1103,36 @@ transform: translate(-50%,0); }
     font-family: 'icomoon';
     content: "\e5cd"; }
 
-.symptom {
+.prog-card {
   padding: 30px;
   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
   background: #fff; }
-  .symptom .img {
+  .prog-card .img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 80px;
     flex: 0 0 80px;
     margin-right: 20px; }
-    .symptom .img img {
+    .prog-card .img img {
       max-width: 100%;
       margin-bottom: 0; }
-  .symptom .text {
+  .prog-card .text {
     padding-top: 10px; }
-    .symptom .text h3 {
+    .prog-card .text h3 {
       font-size: 16px;
       font-weight: 700;
       color: #6f42c1; }
-    .symptom .text p {
+    .prog-card .text p {
       line-height: 1.5;
       font-size: 15px;
       margin-bottom: 0; }
+
+    @media screen and (max-width: 768px) {
+      .prog-card {
+        display: flex;
+        flex-direction: column;
+      }
+    }
 
 .note {
   padding: 20px;
@@ -2140,3 +2154,10 @@ section.page-title .title h1 {
   display: none
 }
 
+.bg-img {
+  /*background-image: url("../images/Page123.jpg");*/
+background-size: cover;
+background-position: center center;
+height: 828.52px;
+transform: translate(0px, -0.25px);
+}

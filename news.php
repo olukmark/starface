@@ -55,7 +55,7 @@
                   <span>3 Comments</span>
                 </a>
               </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
+              <h3><a href="#">Starface presents #ArtsFestival</a></h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
@@ -74,7 +74,7 @@
                   <span>3 Comments</span>
                 </a>
               </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
+              <h3><a href="#">Starface presents #ArtsFestival</a></h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
@@ -93,7 +93,7 @@
                   <span>3 Comments</span>
                 </a>
               </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
+              <h3><a href="#">Starface presents #ArtsFestival</a></h3>
             </div>
           </div>
 
@@ -113,7 +113,7 @@
                   <span>3 Comments</span>
                 </a>
               </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
+              <h3><a href="#">Starface presents #ArtsFestival</a></h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
@@ -132,7 +132,7 @@
                   <span>3 Comments</span>
                 </a>
               </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
+              <h3><a href="#">Starface presents #ArtsFestival</a></h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
@@ -151,7 +151,7 @@
                   <span>3 Comments</span>
                 </a>
               </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
+              <h3><a href="#">Starface presents #ArtsFestival</a></h3>
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 
-<?php include 'signup.php'; ?>
+
 <footer class="site-footer">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="footer-form bg-navy col-lg-12 my-5">
             <div class="columns flex-bottom">
               <div class="col-lg-6">
@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-        <div>
+        <div> -->
         <div class="row">
           <div class="col-lg-4">
             <h2 class="footer-heading mb-4">About</h2>

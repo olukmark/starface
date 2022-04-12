@@ -41,7 +41,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/starface-10.jpg" alt="Image" class="img-fluid">
             </div>
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/starface-15.jpg" alt="Image" class="img-fluid">
             </div>
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/starface-17.jpg" alt="Image" class="img-fluid">
             </div>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/theatre.jpg" alt="Image" class="img-fluid">
             </div>
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/starface-11.jpg" alt="Image" class="img-fluid">
             </div>
@@ -106,7 +106,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/studio.jpg" alt="Image" class="img-fluid">
             </div>
@@ -117,7 +117,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/community-outreach.jpg" alt="Image" class="img-fluid">
             </div>
@@ -129,7 +129,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/artcafe.jpg" alt="Image" class="img-fluid">
             </div>
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="col-lg-12 mb-4">
-          <div class="symptom d-flex">
+          <div class="prog-card d-flex">
             <div class="col-lg-4">
               <img src="images/starface-06.jpg" alt="Image" class="img-fluid">
             </div>
