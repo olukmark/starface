@@ -115,7 +115,7 @@
               </div>
               <div class="d-flex">
                 <span class="icon-envelope"></span>
-                <a href="#">info@mydomain.com</a>
+                <a href="mailto: starfacecamp@gmail.com">starfacecamp@gmail.com</a>
               </div>
               <div class="d-flex">
                 <span class="icon-globe"></span>
