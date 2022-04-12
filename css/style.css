@@ -749,7 +749,7 @@ body:after {
       font-weight: bold; }
 
 .site-section {
-  padding: 90px 0; }
+  padding: 50px 0; }
 
 .service {
   background: #fff;
@@ -2160,4 +2160,16 @@ background-size: cover;
 background-position: center center;
 height: 828.52px;
 transform: translate(0px, -0.25px);
+}
+
+@media only screen and (max-width: 768px) {
+  .float-l {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .display-none-md {
+    display: none;
+  }
 }

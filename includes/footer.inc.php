@@ -24,18 +24,14 @@
         <div> -->
         <div class="row">
           <div class="col-lg-4">
-            <h2 class="footer-heading mb-4">About</h2>
-            <!-- <p>StarFace CAMP (Creative and multicultural platform) is a humanitarian and social enterprise serving to empower the marginalized groups and social entrepreneurs through art, culture and technology. We prioritize equity, diversity and inclusion for positive social transformation and sustainable development. </p> -->
-            <div class="my-5">
-              <a href="https://www.facebook.com/starface.camp.77" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="https://www.twitter.com/starfacecamp" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            <div clas="p-2 m-2">
+              <img src="images/starface-logo.png" style="max-height:100px">
             </div>
+            <!-- <p>StarFace CAMP (Creative and multicultural platform) is a humanitarian and social enterprise serving to empower the marginalized groups and social entrepreneurs through art, culture and technology. We prioritize equity, diversity and inclusion for positive social transformation and sustainable development. </p> -->
           </div>
           <div class="col-lg-8">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-4 my-3">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
                   <li><a href="#">Who We Are</a></li>
@@ -45,7 +41,7 @@
                   <li><a href="#">Donate</a></li>
                 </ul>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 my-3">
                 <h2 class="footer-heading mb-4">Get in Touch</h2>
                 <ul class="list-unstyled">
                   <p style="color: #00344f"><span class="icon-room mr-3" style="color: #00344f" ></span>Plot 3, Princess Road, Innovation village, Gulu</p>
@@ -53,15 +49,15 @@
                   <p style="color: #00344f"><span class="icon-phone mr-3" style="color: #00344f"></span>+256782785992</a></p>
                 </ul>
               </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">lorem</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">lorem</a></li>
-                  <li><a href="#">lorem</a></li>
-                  <li><a href="#">lorem</a></li>
-                  <li><a href="#">lorem</a></li>
-                </ul>
-              </div> -->
+              <div class="col-lg-4 my-3">
+                <h2 class="footer-heading mb-4">Get in Touch</h2>
+                <div class="my-5">
+                  <a href="https://www.facebook.com/starface.camp.77" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="https://www.twitter.com/starfacecamp" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+              </div>
             </div>
           </div>
         </div>
