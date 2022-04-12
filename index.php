@@ -341,6 +341,26 @@ border-bottom-right-radius: 130px;">
                 <img src="images/starface-09.jpg">
                 </div>
               </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-19.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-20.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-21.jpg">
+                </div>
+              </div>
+              <div class="item">
+                <div class="pad15">
+                <img src="images/starface-22.jpg">
+                </div>
+              </div>
             </div>
             <button class="btn btn-primary leftLst"><</button>
             <button class="btn btn-primary rightLst">></button>
@@ -432,21 +452,21 @@ border-bottom-right-radius: 130px;">
           <div class="col-lg-4 my-2">
             <div class="data">
               <span class="icon text-primary">
-                <img src="./images/SNV.jpg">
+                <a href="#"><img src="./images/SNV.jpg"></a>
               </span>
             </div>
           </div>
           <div class="col-lg-4 mx-y">
             <div class="data">
               <span class="icon text-primary">
-                <img src="./images/SNV.jpg">
+                <a href="#"></a><img src="./images/SNV.jpg"></a>
               </span>
             </div>
           </div>
           <div class="col-lg-4 mx-y">
             <div class="data">
               <span class="icon text-primary">
-                <img src="./images/SNV.jpg">
+                <a href="#"><img src="./images/SNV.jpg"></a>
               </span>
             </div>
           </div>

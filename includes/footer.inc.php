@@ -1,4 +1,5 @@
 
+<?php include 'signup.php'; ?>
 <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -8,12 +9,15 @@
                 <h3 class="text-white font-weight-bold">Signup  for our Newsletter</h3>
               </div>
               <div class="col-lg-6">
-                <form class="sign-up" action="includes/signup.php" method="post">
+                <form id="newsletter-form" class="sign-up" action="#" method="post">
                   <div class="signup__wrapper">
                     <input id="emailAddress" class="signup__field" type="email" autocomplete="email" name="email" placeholder="Enter your email address" value="">
-                    <input class="signup__submit" type="submit" name="submit_form" value="">
+                    <input id="btn" class="signup__submit" type="submit" name="submit_form" value="">
                   </div>
                 </form>
+                <div id="response" class="">
+
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 
 <?php
 
+
 $host   = "localhost";
 $dbname = "starface_db";
 $user   = "root";
@@ -32,30 +33,44 @@ try {
             ));
 
             if ($q) {
-                $status = "success";
-                $message = "You have been successfully subscribed";
+                //$status = "success";
+                //$message = "You have been successfully subscribed";
+                //header("Location: ../index.php ");
+
+                echo "<script type='text/javascript'>
+                        var x = document.getElementById('response');
+                        let el = document.createElement('h6');
+                        x.appendChild(el);
+                        el.createTextNode = 'You have successfully subscribed to our newsletter';
+
+                        setTimeout(hideElement, 1000);
+                        function hideElement() {
+                            x.style.display = 'none';
+                        }
+                      </script>";
+                    $res = "<h6>You have successfully subscribed to our Newsletter</h6>";
+
+
             } else {
-                $status = "error";
-                $message = "An error occurred, please try again";
+                //$status = "error";
+                //$message = "An error occurred, please try again";
             }
         } else {
-            $status = "error";
-            $message = "This email is already subscribed";
+//$status = "error";
+            //$message = "This email is already subscribed";
         }
     }
 
-    $data = array(
+    /*$data = array(
         'status' => $status,
         'message' => $message
     );
 
     echo json_encode($data);
 
-    $db = null;
+    $db = null;*/
 }
     catch(PDOException $e) {
     echo $e->getMessage();
 }
-
-
 ?>

@@ -48,7 +48,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-                <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+                <a href="contact.php" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
                   <div class="card-title">
                     <h4 class="text-white">Community Events</h4>
                   </div>
@@ -64,7 +64,7 @@
                 </a>
               </div>
               <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-                <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+                <a href="contact.php" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
                   <div class="card-title">
                     <h4 class="text-white">Field Teams</h4>
                   </div>
@@ -80,7 +80,7 @@
                 </a>
               </div>
               <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-                <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+                <a href="contact.php" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
                   <div class="card-title">
                     <h4 class="text-white">Careers</h4>
                   </div>
@@ -120,7 +120,7 @@
                   </a>
                 </div>
                 <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
-                  <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
+                  <a href="contact.php" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
                     <div class="card-title">
                       <h4 class="text-white">Corporate Partnerships</h4>
                     </div>
@@ -135,7 +135,7 @@
                     </div>
                   </a>
                 </div>
-                <div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
+                <!--<div class="col-sm-12 col-md-3 my-4 animate__animated animate__fadeInUp" style="height: 15rem;">
                   <a href="#" class="card card-content p-4 h-100 rounded-sm padding-bottom-xl text-white" style="background-color:#00344f">
                     <div class="card-title">
                       <h4 class="text-white">More Ways to Give</h4>
@@ -150,7 +150,7 @@
                       <img class="card__arrow-icon" src="./fonts/svg-icons/arrow--right--navy.svg" alt="">
                     </div>
                   </a>
-                </div>
+                </div> -->
 
               </div>
               </div>

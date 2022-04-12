@@ -1,5 +1,5 @@
 <!-- Page title -->
-<?php $title = "News & Stories - StarFace CAMP"; ?>
+<?php $title = "What We Do - StarFace CAMP"; ?>
 
 <!-- header.php -->
 <?php include('./includes/header.inc.php'); ?>
@@ -36,7 +36,7 @@
       <div class="row mb-5">
         <div class="col-lg-7 mx-auto text-center">
           <h2 class="mb-4 section-heading">OUR PROGRAMS</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
+          <p></p>
         </div>
       </div>
       <div class="row">
@@ -70,7 +70,7 @@
         <div class="col-lg-12 mb-4">
           <div class="symptom d-flex">
             <div class="col-lg-4">
-              <img src="images/starface-.jpg" alt="Image" class="img-fluid">
+              <img src="images/starface-17.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="text col-lg-6">
               <h3>The Academy Show</h3>
@@ -84,7 +84,7 @@
         <div class="col-lg-12 mb-4">
           <div class="symptom d-flex">
             <div class="col-lg-4">
-              <img src="images/starface-06.jpg" alt="Image" class="img-fluid">
+              <img src="images/theatre.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="text col-lg-6">
               <h3>Theatre Art Production</h3>
@@ -108,7 +108,7 @@
         <div class="col-lg-12 mb-4">
           <div class="symptom d-flex">
             <div class="col-lg-4">
-              <img src="images/starface-06.jpg" alt="Image" class="img-fluid">
+              <img src="images/studio.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="text col-lg-6">
               <h3>Audiovisual Production</h3>
@@ -119,7 +119,7 @@
         <div class="col-lg-12 mb-4">
           <div class="symptom d-flex">
             <div class="col-lg-4">
-              <img src="images/starface-06.jpg" alt="Image" class="img-fluid">
+              <img src="images/community-outreach.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="text">
               <h3>Outreach Programs</h3>
@@ -131,7 +131,7 @@
         <div class="col-lg-12 mb-4">
           <div class="symptom d-flex">
             <div class="col-lg-4">
-              <img src="images/starface-06.jpg" alt="Image" class="img-fluid">
+              <img src="images/artcafe.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="text col-lg-6">
               <h3>Art Cafe</h3>
@@ -156,4 +156,4 @@
 
     </div> <!-- .site-wrap -->
 
-    <?php include '/includes/footer.inc.php'; ?>
+    <?php include './includes/footer.inc.php' ?>

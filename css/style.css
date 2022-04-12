@@ -2135,3 +2135,8 @@ section.page-title .title h1 {
 .active {
   box-shadow: 0 0 2px #898989;
 }
+
+.d-none {
+  display: none
+}
+
