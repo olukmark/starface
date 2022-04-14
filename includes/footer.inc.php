@@ -1,6 +1,6 @@
 
 
-<footer class="site-footer">
+<footer class="site-footer mt-3">
       <div class="container">
         <!-- <div class="row">
           <div class="footer-form bg-navy col-lg-12 my-5">
@@ -23,7 +23,7 @@
           </div>
         <div> -->
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4  d-flex justify-content-center align-items-center">
             <div clas="p-2 m-2">
               <img src="images/starface-logo.png" style="max-height:100px">
             </div>
@@ -34,11 +34,11 @@
               <div class="col-lg-4 my-3">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">Who We Are</a></li>
-                  <li><a href="#">What We Do</a></li>
-                  <li><a href="#">The Arts Cafe</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Donate</a></li>
+                  <li><a href="who-we-are.php">Who We Are</a></li>
+                  <li><a href="what-we-do.php">What We Do</a></li>
+                  <li><a href="">The Arts Cafe</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
+                  <li><a href="donate.php">Donate</a></li>
                 </ul>
               </div>
               <div class="col-lg-4 my-3">

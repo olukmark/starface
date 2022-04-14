@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0">
             <figure class="img-play-vid">
-              <img src="images/starface-12.jpg" alt="Image" class="img-fluid" style="border-top-left-radius: 170px; border-bottom-right-radius: 130px">
+              <img src="images/starface-12.jpg" alt="Image" class="img-fluid" style="border-radius: 10px">
             </figure>
           </div>
           <div class="col-lg-5 ml-auto">

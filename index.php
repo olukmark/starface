@@ -6,19 +6,21 @@
 
 <!-- Hero section -->
     <div class="hero-v1 hero-image">
-      <div class="custom-shape-divider-bottom-1630920106 display-none">
+      <div class="custom-shape-divider-bottom-1630920106">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
         </svg>
       </div>
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 mr-auto text-center text-lg-left">
+          <div class="col-lg-6 mr-auto text-lg-left">
             <!--<span class="d-block subheading">lorem</span>-->
-            <h1 class="heading mb-3 text-white">We Celebrate Diversity to Embrace Humanity Through Arts.</p>
-            <div class="my-2 py-2 d-sm-flex"><a href="donate.php" class="btn p-3 bg-brown font-weight-bold btn-animate">Donate Now</a></div>
+            <h1 class="heading mb-3 text-white">We Celebrate Diversity to Embrace Humanity Through Arts.</h1>
           </div>
         </div>
+        <div class="my-2 py-2 d-sm-flex">
+              <a href="donate.php" class="btn p-3 bg-brown font-weight-bold btn-animate">Donate Now</a>
+            </div>
       </div>
     </div>
 
@@ -30,13 +32,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img class="display-none" src="images/starface-11.jpg" style="border-top-left-radius: 170px;
-border-bottom-right-radius: 130px;">
+            <img class="display-none" src="images/starface-02.jpg" style="border-radius: 10px;">
           </div>
           <div class="col-lg-5 ml-auto">
             <h2 class="mb-4 section-heading navy-text text-center">WHO WE ARE</h2>
             <p>StarFace CAMP (Creative and multicultural platform) is a humanitarian and social enterprise serving to empower the marginalized groups and social entrepreneurs through art, culture and technology. We prioritize equity, diversity and inclusion for positive social transformation and sustainable development. </p>
-            <p><a href="about.html" class="btn btn-primary">Learn more</a></p>
+            <p><a href="who-we-are.php" class="btn btn-primary">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@ border-bottom-right-radius: 130px;">
     <div class="site-section bg-primary-light parallax display-none">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 bg-white p-2 mb-5 mr-auto justify-content-center">
+          <div class="col-lg-5 bg-white p-5 mb-5 mr-auto justify-content-center">
             <div class="text-center">
               <h2 class="section-heading mb-4">WHAT WE DO</h2>
               <p></p>
@@ -152,7 +153,7 @@ border-bottom-right-radius: 130px;">
                   <li class="font-weight-bold">The Dance Fitness Class</li>
                 </ul>
               </div>
-              <div class="py-4 my-2"><a href="programs.html" class="btn btn-primary">Learn more</a></div>
+              <div class="py-4 my-2"><a href="whar-we-do.php" class="btn btn-primary">Learn more</a></div>
             </div>
           </div>
           <div class="col-lg-6 display-none">
@@ -440,7 +441,7 @@ border-bottom-right-radius: 130px;">
     </div>
 
     <!-- partners section -->
-    <div class="site-section stats">
+    <div class="site-section stats mb-5">
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">
