@@ -50,7 +50,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 my-3">
-                <h2 class="footer-heading mb-4">Get in Touch</h2>
+                <h2 class="footer-heading mb-4">Follow Us</h2>
                 <div class="my-5">
                   <a href="https://www.facebook.com/starface.camp.77" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                   <a href="https://www.twitter.com/starfacecamp" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
