@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div class="site-section bg-sandy-brown bg-img">
+    <div class="site-section bg-sandy-brown">
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">

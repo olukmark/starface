@@ -35,7 +35,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-lg-7 mx-auto text-center">
-          <h2 class="mb-4 section-heading">OUR PROGRAMS</h2>
+          <h2 class="mb-4 section-heading">OUR PROGRAMMES</h2>
           <p></p>
         </div>
       </div>
